@@ -1,0 +1,11 @@
+<!-- formulaire-etudiant.component.html -->
+<form action="" class="form">
+    <h1>Formulaire</h1>
+    <input type="text" [(ngModel)]="establishment" name="establishment" class="inp" placeholder="Establishment | Établissement">
+    <input type="text" [(ngModel)]="fullName" name="fullName" class="inp" placeholder="Full Name | Nom Prénom">
+    <input type="text" [(ngModel)]="registrationNumber" name="registrationNumber" class="inp" placeholder="Registration number | Matricule">
+    <input type="text" [(ngModel)]="bankDetails" name="bankDetails" class="inp" placeholder="Personal bank details | RIB Personnel">
+    <input type="file" (change)="onFileSelected($event)" class="inp" accept="image/*" />
+    <button type="button" class="Btn" (click)="saveinfo()">Save Information</button>
+  </form>
+  

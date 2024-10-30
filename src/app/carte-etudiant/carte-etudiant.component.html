@@ -1,0 +1,25 @@
+<div class="carte">
+    <div class="headCarte">
+      <div class="logoPlace">
+        <img src="../../assets/images/UEMF.png" alt="uemf" class="logo">
+      </div>
+      <div class="TitlePlace">
+        <div class="TitlePlaceCenter">carte d'étudiant student id</div>
+      </div>
+    </div>
+    <div class="bodyCarte">
+      <div class="imageStudentPlace">
+        <img *ngIf="datacarte.img" [src]="safeImageUrl" alt="myimage" class="imageStudent">
+      </div>
+      <div class="infoStudent">
+        <div class="title firstpart">Establishment | Établissement</div>
+        <div class="infotitle">{{datacarte.ecole}}</div>
+        <div class="title">Full Name | Nom Prénom</div>
+        <div class="infotitle">{{datacarte.name}}</div>
+        <div class="title">Registration number | Matricule</div>
+        <div class="infotitle">{{datacarte.number}}</div>
+        <div class="title">Personal bank details | RIB Personnel</div>
+        <div class="infotitle">{{datacarte.rib}}</div>
+      </div>
+    </div>
+</div>

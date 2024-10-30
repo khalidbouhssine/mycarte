@@ -1,0 +1,77 @@
+.carte{
+    width: 500PX;
+    height: 270PX;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150PX;
+    border-radius: 7PX;
+    box-shadow: 1PX 1PX 20PX rgb(208, 208, 208);
+    overflow: hidden;
+}
+.headCarte{
+    width: 100%;
+    height: 80PX;
+    background-color: #1e5bb8;
+    display: flex;
+}
+.bodyCarte{
+    width: 100%;
+    height: 190PX;
+    display: flex;
+}
+.headCarte .logoPlace{
+    width: 200PX;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.headCarte .TitlePlace{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headCarte .logo{
+    height: 80%;
+    margin-left: 20PX;
+}
+.headCarte .TitlePlaceCenter{
+    width: 200PX;
+    height: 100%;
+    font-size: 25PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.bodyCarte .imageStudentPlace{
+    width: 170PX;
+    height: 190PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bodyCarte .imageStudent{
+    width: 70%;
+}
+.bodyCarte .infoStudent{
+    flex: 1;
+    height: 100%;
+}
+.bodyCarte .firstpart{
+    margin-top: 15PX;
+}
+.bodyCarte .title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13PX;
+    color: #1e5bb8;
+}
+.bodyCarte .infotitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15PX;
+    color: #141414;
+    padding-left: 5PX;
+    font-weight: bold;
+    text-transform: capitalize;
+}
